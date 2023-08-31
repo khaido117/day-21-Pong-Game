@@ -8,8 +8,6 @@ screen.tracer(0)
 
 paddle = Paddle()
 
-
-
 screen.listen()
 screen.onkey(paddle.go_up,"Up")
 screen.onkey(paddle.go_down,"Down")
