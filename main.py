@@ -15,8 +15,8 @@ screen.tracer(0)
 r_paddle = Paddle((360,0))
 l_paddle = Paddle((-360,0))
 
+#Create ball & score object
 ball = Ball()
-
 score = Score()
 
 #Keyboard function
@@ -26,7 +26,6 @@ screen.onkey(r_paddle.go_down,"Down")
 
 screen.onkey(l_paddle.go_up,"w")
 screen.onkey(l_paddle.go_down,"s")
-
 
 #Game loop
 game_is_on = True 

@@ -12,14 +12,17 @@ class Score(Turtle):
         self.penup()
         self.update_score()
 
+    #Add right score
     def r_get_score(self):
         self.r_score += 1
         self.update_score()
 
+    #Add left score
     def l_get_score(self):
         self.l_score += 1
         self.update_score()
-        
+
+    #Update score
     def update_score(self):
         self.clear()
         self.goto(-100, 200)
